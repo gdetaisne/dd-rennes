@@ -50,5 +50,5 @@ const rennesCentrevilleData = {
 };
 
 export default function RennesCentrevillePage() {
-  return <LocalPage data={rennesCentrevilleData} />;
+  return <LocalPage {...rennesCentrevilleData} />;
 }

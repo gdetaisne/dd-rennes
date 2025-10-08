@@ -50,5 +50,5 @@ const rennesThaborData = {
 };
 
 export default function RennesThaborPage() {
-  return <LocalPage data={rennesThaborData} />;
+  return <LocalPage {...rennesThaborData} />;
 }

@@ -50,5 +50,5 @@ const rennesCleunayData = {
 };
 
 export default function RennesCleunayPage() {
-  return <LocalPage data={rennesCleunayData} />;
+  return <LocalPage {...rennesCleunayData} />;
 }
