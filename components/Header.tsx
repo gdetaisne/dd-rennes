@@ -41,12 +41,12 @@ export default function Header() {
   };
 
   const zonesItems = [
-    { href: '/Rennes', label: 'Rennes' },
-    { href: '/Rennes/centre-ville', label: 'Centre-ville' },
-    { href: '/Rennes/thabor', label: 'Thabor' },
-    { href: '/Rennes/villejean', label: 'Villejean' },
-    { href: '/Rennes/beaulieu', label: 'Beaulieu' },
-    { href: '/Rennes/cleunay', label: 'Cleunay' },  ];
+    { href: '/rennes', label: 'Rennes' },
+    { href: '/rennes/centre-ville', label: 'Centre-ville' },
+    { href: '/rennes/thabor', label: 'Thabor' },
+    { href: '/rennes/villejean', label: 'Villejean' },
+    { href: '/rennes/beaulieu', label: 'Beaulieu' },
+    { href: '/rennes/cleunay', label: 'Cleunay' },  ];
 
 
   return (
@@ -127,7 +127,7 @@ export default function Header() {
                   Destinations fréquentes
                 </div>
                 <Link
-                  href="/Rennes-vers-paris"
+                  href="/rennes-vers-paris"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -137,7 +137,7 @@ export default function Header() {
                   Rennes → Paris
                 </Link>
                 <Link
-                  href="/Rennes-vers-lyon"
+                  href="/rennes-vers-lyon"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
@@ -147,7 +147,7 @@ export default function Header() {
                   Rennes → Lyon
                 </Link>
                 <Link
-                  href="/Rennes-vers-toulouse"
+                  href="/rennes-vers-toulouse"
                   className="block px-4 py-2 text-gray-800 hover:bg-white/50 transition-colors"
                   onClick={() => {
                     setIsZonesDropdownOpen(false);
