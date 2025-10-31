@@ -43,6 +43,8 @@ La **Caisse d'Allocations Familiales (CAF) d'Ille-et-Vilaine** propose une prime
 - **+ 107,03€** par enfant supplémentaire
 - Plafonnée aux frais réels de déménagement (sur présentation de factures)
 
+Pour estimer le coût total de votre déménagement, consultez notre [guide prix déménageur Rennes](/blog/demenagement-rennes/demenageur-rennes-prix).
+
 **Comment l'obtenir à Rennes ?**
 1. Déclarez votre changement d'adresse à la CAF d'Ille-et-Vilaine dans les **6 mois** suivant le déménagement
 2. Remplissez le formulaire de demande de prime en ligne sur caf.fr
@@ -428,7 +430,7 @@ Le prix d'un déménageur varie selon la **période** :
 - **Réservez tôt** : 4-6 semaines avant = vous avez le choix et pouvez négocier
 - **Mentionnez les devis concurrents** : "J'ai une offre à 900€, pouvez-vous vous aligner ?"
 - **Soyez flexible sur la date** : "Si je prends la semaine du 10-14 mars, quel tarif ?"
-- **Groupez les services** : déménagement + garde-meuble = remise possible
+- **Groupez les services** : déménagement + garde-meuble = remise possible. Pour comparer toutes les options de stockage, consultez notre [guide garde-meuble Rennes](/blog/garde-meuble-rennes/garde-meuble-rennes-guide-complet).
 
 **Chez Moverz Rennes**, nous proposons des **remises de 10-15% hors saison** et pour les réservations anticipées. Contactez-nous !
 
