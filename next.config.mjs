@@ -46,6 +46,10 @@ const nextConfig = {
   // Redirections 404 - Nettoyage indexation
   async redirects() {
     const existing = [
+      // VAGUE 1 – Migration homepage domaine → page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/rennes/', permanent: true },
+
+      // Redirections historiques
       // SATELLITES : Articles sans -rennes → avec -rennes
       { source: '/blog/satellites/location-camion-pas-cher', destination: '/blog/satellites/location-camion-pas-cher-rennes', permanent: true },
       { source: '/blog/satellites/budget-demenagement-complet', destination: '/blog/satellites/budget-demenagement-complet-rennes', permanent: true },
