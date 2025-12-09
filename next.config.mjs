@@ -49,6 +49,12 @@ const nextConfig = {
       // VAGUE 1 – Migration homepage domaine → page ville moverz.fr
       { source: '/', destination: 'https://moverz.fr/demenagement/rennes/', permanent: true },
 
+      // MIGRATION BLOG → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
+      // Nouvelle structure /blog/demenagement-rennes/{slug} → moverz.fr/blog/{slug}
+      { source: '/blog/demenagement-rennes/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
+
       // Redirections historiques
       // SATELLITES : Articles sans -rennes → avec -rennes
       { source: '/blog/satellites/location-camion-pas-cher', destination: '/blog/satellites/location-camion-pas-cher-rennes', permanent: true },
