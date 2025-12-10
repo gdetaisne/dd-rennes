@@ -1,4 +1,4 @@
-import { getMoverzBlogRedirectsForHost } from './scripts/blog-moverz-redirects.mjs';
+import { getMoverzBlogRedirectsForHost } from '../../scripts/blog-moverz-redirects.mjs';
 
 const HOST = 'devis-demenageur-rennes.fr';
 
@@ -39,8 +39,12 @@ const nextConfig = {
   async redirects() {
     const existing = [
       // Homepage → Page ville moverz.fr
+      { source: '/', destination: 'https://moverz.fr/demenagement/rennes/', permanent: true },
       // Blog hub → moverz.fr
+      { source: '/blog', destination: 'https://moverz.fr/blog/', permanent: true },
+      { source: '/blog/', destination: 'https://moverz.fr/blog/', permanent: true },
       // Blog articles → moverz.fr
+      { source: '/blog/demenagement-rennes/:slug*', destination: 'https://moverz.fr/blog/:slug*', permanent: true },
       // Quartiers rennes (6 pages)
       { source: '/rennes/', destination: 'https://moverz.fr/rennes/', permanent: true },
       { source: '/rennes/beaulieu/', destination: 'https://moverz.fr/rennes/beaulieu/', permanent: true },
@@ -49,6 +53,7 @@ const nextConfig = {
       { source: '/rennes/thabor/', destination: 'https://moverz.fr/rennes/thabor/', permanent: true },
       { source: '/rennes/villejean/', destination: 'https://moverz.fr/rennes/villejean/', permanent: true },
       // Hub quartiers rennes
+      { source: '/quartiers-rennes/', destination: 'https://moverz.fr/quartiers-rennes/', permanent: true },
       // Corridors depuis rennes (6 pages)
       { source: '/rennes-vers-espagne/', destination: 'https://moverz.fr/rennes-vers-espagne/', permanent: true },
       { source: '/rennes-vers-lyon/', destination: 'https://moverz.fr/rennes-vers-lyon/', permanent: true },
